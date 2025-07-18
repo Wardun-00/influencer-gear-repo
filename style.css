@@ -32,7 +32,7 @@ header{
 
 
 .header-sub{
-    max-width: 1440px;
+    max-width: 1200px;
     border: 2px solid red;
     margin: 0 auto;
 }
@@ -69,6 +69,54 @@ header{
     font-weight: 500;
 }
 
+/* hero section start........ */
+
+.hero-container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title-text{
+    font-size:3.25rem;
+    color:rgba(58, 58, 58, 1);
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.hero-passage{
+    font-size: 1rem;
+    color:rgba(58, 58, 58, 1);
+    font-weight: 500;
+}
+
+.primary-btn{
+    background-color:rgba(224, 44, 109, 1);
+    border-radius: 41px;
+    padding:10px 10px;
+    width: 196px;
+    height: 44px;
+    color:rgba(255, 255, 255, 1);
+    border: none;
+}
+
+
+/* hero image section.............. */
+
+.hero-image-section{
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    /* margin-right:50px; */
+    /* width:33%; */
+    
+}
+
+.hero-image{
+    padding:20px;
+}
+
+
+
+
 
 
 /* small device version ..........
@@ -77,6 +125,7 @@ header{
 @media screen and (max-width:576px) {
     
     .navbar{
+
         flex-direction: column;
     }
 
@@ -84,5 +133,24 @@ header{
         flex-direction: column;
         gap: 5px;
     }
+
+/* hero section */
+
+.hero-container{
+    flex-direction: column-reverse;
+}
+
+.hero-image-section{
+  width:90%;
+  background-repeat:no-repeat;
+
+   
+}
+
+
+.hero-title{
+    margin-top: 50px;
+    text-align: center;
+}
 
 }
