@@ -1,0 +1,88 @@
+
+/* font section start......
+............................ */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+/* shared style items...........
+................................ */
+
+.display-flex{
+    display: flex;
+}
+
+
+/* header section start.......... */
+
+header{
+    /* background-color: antiquewhite; */
+}
+
+
+.header-sub{
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+
+/* Nav section start...........
+............................... */
+
+
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-container{
+    justify-content: space-between;
+    gap: 30px;
+    /* border: 2px solid red; */
+    list-style: none;
+}
+
+.nav-title{
+    font-size: 1.8rem;
+    color:rgba(58, 58, 58, 1);
+    font-weight: 700;
+    
+}
+
+.item-text{
+    text-decoration: none;
+    color:rgba(58, 58, 58, 1);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+/* small device version ..........
+.................................. */
+
+@media screen and (max-width:576px) {
+    
+    .navbar{
+        flex-direction: column;
+    }
+
+    .items-container{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}
