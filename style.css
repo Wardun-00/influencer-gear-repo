@@ -103,8 +103,9 @@ header{
 /* hero image section.............. */
 
 .hero-image-section{
-    background-image: url(./images/Circle\ design.svg);
+    background-image: url(./images/Circle111\ design.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     /* margin-right:50px; */
     /* width:33%; */
     
@@ -141,12 +142,16 @@ header{
 }
 
 .hero-image-section{
-  width:90%;
+  width:70%;
   background-repeat:no-repeat;
+  /* border: 2px solid red; */
 
    
 }
 
+.hero-image{
+    width: 100%;
+}
 
 .hero-title{
     margin-top: 50px;
