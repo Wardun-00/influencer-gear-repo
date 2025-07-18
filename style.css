@@ -142,7 +142,7 @@ header{
 }
 
 .hero-image-section{
-  width:70%;
+  width:82%;
   background-repeat:no-repeat;
   /* border: 2px solid red; */
 
@@ -154,8 +154,28 @@ header{
 }
 
 .hero-title{
-    margin-top: 50px;
+    margin-top:20px;
     text-align: center;
+}
+
+}
+
+
+/* medium device like  tablet mode */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    .hero-container{
+        flex-direction: column;
+        
+    }
+
+    .hero-title{
+    text-align: center;
+}
+
+    .hero-image-section{
+    margin-top: 50px;
 }
 
 }
