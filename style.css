@@ -20,6 +20,12 @@
     "wdth" 100;
 }
 
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 body{
     margin: 0;
     background-color:rgba(250, 250, 250, 250);
@@ -41,7 +47,7 @@ header{
 
 
 .header-sub{
-    max-width: 1250px;
+    max-width: 1200px;
     /* border: 2px solid red; */
     margin: 0 auto;
 }
@@ -268,11 +274,51 @@ header{
     }
 
 
+    /* footer section...........
+    .............................. */
+
+    .footer-section{
+        margin: 0 auto;
+        max-width: 1200px;
+        background-color:rgba(10, 8, 38, 1);
+        /* border: 2px solid red; */
+        height:190px ;
+    }
+
+    .footer-container{
+        border: 2px solid black;
+        width: 262px;
+        height: 140px;
+        text-align: center;
+        margin: 0 auto;
+    }
 
 
+    .footer-title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .copy-right, .all-right-reverse{
+        font-size: 0.98rem;
+        font-weight: 700;
+        line-height: 14px;
+    }
 
 
+   
 
+.contact-icon{
+    display: flex;
+    gap:20px;
+}
+
+.social-contact{
+    height:36px;
+    margin-left: 10px;
+    
+}
 
 
 
@@ -368,7 +414,7 @@ header{
 }
 
 .feature-product-passage{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .second-part{
@@ -376,6 +422,11 @@ header{
     text-align: center;
 }
 
+/* footer- section */
+
+.footer-section{
+    margin-top: 380px;
+}
 
 
 }
@@ -430,5 +481,12 @@ header{
     margin-left: 90px;
     margin-top:20px;
 }
+
+/* footer section */
+
+.footer-section{
+    margin-top: 580px;
+}
+
 
 }
