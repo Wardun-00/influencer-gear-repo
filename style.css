@@ -33,7 +33,7 @@ header{
 
 .header-sub{
     max-width: 1200px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 
@@ -115,7 +115,18 @@ header{
     padding:20px;
 }
 
+/* sponser section.......
+......................... */
 
+.sponser-container{
+    max-width: 1200px;
+    height: 110px;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 2px solid rgb(11, 14, 207); */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
 
 
 
@@ -142,10 +153,9 @@ header{
 }
 
 .hero-image-section{
-  width:82%;
+  width:80%;
   background-repeat:no-repeat;
   /* border: 2px solid red; */
-
    
 }
 
@@ -158,7 +168,19 @@ header{
     text-align: center;
 }
 
+
+.sponser-container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height:127px;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    
 }
+
+}
+
 
 
 /* medium device like  tablet mode */
